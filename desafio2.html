@@ -4,118 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ordem Paranormal</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <style>
+      body {
+        background-color: azure;
+        font-family:
+          "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Oficinas para Inscrições - Ordem Paranormal</h1>
+      <h1 style="color: rgb(59, 72, 255)">
+        Formulário para Inscrições - Ordem Paranormal
+      </h1>
       <p>Cadastre-se para participar dos treinamentos da Ordo Realitas.</p>
     </header>
     <br />
     <section>
-      <label for="nome">Nome do Agente:</label> <br>
-      <input
-        type="text"
-        id="nome"
-        name="nome"
-        placeholder="Digite seu nome..."
-      />
-<br>
-      <br />
-      <label for="senha">Código de Acesso:</label> <br>
-      <input
-        type="password"
-        name="senha"
-        id="senha"
-        placeholder="Digite seu Código..."
-      />
-<br>
-<br>
-  <label for="oficina">Escolha uma Oficina:</label> <br>
-         <select id="oficina">
-        <option>Rituais Básicos</option>
-        <option>Combate ao Paranormal</option>
-        <option>Investigação Sobrenatural</option>
-        <option>Sobrevivência em Missões</option>
-      </select>
+      <form action="">
+        <label for="nome">Nome do Agente:</label> <br />
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome..."
+        />
+        <br />
+        <br />
+        <label for="senha">Código de Acesso:</label> <br />
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite seu Código..."
+        />
+        <br />
+        <br />
+        <label for="oficina">Escolha uma Oficina:</label> <br />
+        <select id="oficina">
+          <option>Rituais Básicos</option>
+          <option>Combate ao Paranormal</option>
+          <option>Investigação Sobrenatural</option>
+          <option>Sobrevivência em Missões</option>
+        </select>
 
-      <br />
-      <p>Turno do Treinamento</p>
-      <input type="radio" id="dia" name="turno" />
-      <label for="dia">Manhã</label> <br />
-      <input type="radio" id="tarde" name="turno" />
-      <label for="tarde">Tarde</label> <br />
-      <input type="radio" id="noite" name="turno" />
-      <label for="noite">Noite</label>
+        <br />
+        <p>Turno do Treinamento</p>
+        <input type="radio" id="dia" name="turno" />
+        <label for="dia">Manhã</label> <br />
+        <input type="radio" id="tarde" name="turno" />
+        <label for="tarde">Tarde</label> <br />
+        <input type="radio" id="noite" name="turno" />
+        <label for="noite">Noite</label>
 
-      <br />
-      <p>Classe:</p>
+        <br />
+        <p>Classe:</p>
 
-      <input type="checkbox" id="mundano" />
-      <label for="investigacao">Mundano</label>
+        <input type="checkbox" id="mundano" />
+        <label for="investigacao">Mundano</label>
 
-      <input type="checkbox" id="ocultismo" />
-      <label for="ocultismo">Ocultista</label>
+        <input type="checkbox" id="ocultismo" />
+        <label for="ocultismo">Ocultista</label>
 
-      <input type="checkbox" id="combate" />
-      <label for="combate">Combatente</label>
+        <input type="checkbox" id="combate" />
+        <label for="combate">Combatente</label>
 
-      <input type="checkbox" id="especial" />
-      <label for="combate">Especialista</label>
-    
-      <br />
-      <label for="obs">Relato Paranormal:</label><br />
-      <textarea id="obs" name="obs" rows="3"></textarea>
-      <br>
-          <button type="submit" onclick="alert('ENVIADO')">Cadrastar Agente</button>
-    </section>
- 
+        <input type="checkbox" id="especial" />
+        <label for="combate">Especialista</label>
+
+        <br>
+
+        <br />
+        <label for="obs">Relato Paranormal:</label><br />
+        <textarea id="obs" name="obs" rows="3"></textarea>
+        <br />
+        <button type="submit" onclick="alert('ENVIADO')">
+          Cadrastar Agente
+        </button>
       </form>
-      <section>
-         <br>
-        <h3>PARTICIPANTES JÁ INSCRITOS:</h3>
-    <table border="1">
-    <tr>
-        <th>Nome</th>
-        <th>Turno</th>
-        <th>Oficina</th>
-        <th>NEX</th>
-    </tr>
+    </section>
 
-    <tr>
-        <td>Arthur Cervero</td>
-        <td>Noite</td>
-        <td>Investigação</td>
-        <td>45%</td>
-    </tr>
+    <section>
+      <br />
+      <h3>PARTICIPANTES JÁ INSCRITOS:</h3>
+      <table border="1">
+        <tr>
+          <th>Nome</th>
+          <th>Turno</th>
+          <th>Oficina</th>
+          <th>NEX</th>
+        </tr>
 
-    <tr>
-        <td>Kaiser</td>
-        <td>Tarde</td>
-        <td>Tecnologia</td>
-        <td>50%</td>
-    </tr>
+        <tr>
+          <td>Arthur Cervero</td>
+          <td>Noite</td>
+          <td>Investigação</td>
+          <td>45%</td>
+        </tr>
 
-    <tr>
-        <td>Dante</td>
-        <td>Manhã</td>
-        <td>Ocultismo</td>
-        <td>65%</td>
-    </tr>
+        <tr>
+          <td>Kaiser</td>
+          <td>Tarde</td>
+          <td>Tecnologia</td>
+          <td>50%</td>
+        </tr>
 
-    <tr>
-        <td>Joui</td>
-        <td>Noite</td>
-        <td>Combate</td>
-        <td>55%</td>
-    </tr>
+        <tr>
+          <td>Dante</td>
+          <td>Manhã</td>
+          <td>Ocultismo</td>
+          <td>65%</td>
+        </tr>
 
-    <tr>
-        <td>Liz</td>
-        <td>Tarde</td>
-        <td>Investigação</td>
-        <td>40%</td>
-    </tr>
-</table>
-</section>
+        <tr>
+          <td>Joui</td>
+          <td>Noite</td>
+          <td>Combate</td>
+          <td>55%</td>
+        </tr>
+
+        <tr>
+          <td>Liz</td>
+          <td>Tarde</td>
+          <td>Investigação</td>
+          <td>40%</td>
+        </tr>
+      </table>
+    </section>
   </body>
 </html>
