@@ -1,16 +1,29 @@
-/* seleção de elemento */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+:root {
+    -- Icy-aqua: #ADEEE3;
+    -- Caladon: #86DEB7;
+    -- Mint-leaf: #63B995;
+    -- Fern: #50723C;
+    -- Dark-khaki: #423E28
+}
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+/* Seleção de elemento */
 h3 {
-    font-family: 'Courier New', Courier, monospace;
-    color:dodgerblue
+  font-family: "Courier New", Courier, monospace;
+  color: #ADEEE3;
 }
 
-/* seleção de id */
+/* Seleção de ID */
 #tabela {
-    text-align: center;
-    background-color: dodgerblue;
+  text-align: center;
+  background-color: #86DEB7;
 }
 
-/* seleção de classe */
+/* Seleção de classe */
 .negrito {
-    font-weight: bold;
+  font-weight: bold;
 }
