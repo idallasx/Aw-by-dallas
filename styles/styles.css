@@ -1,29 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 
 :root {
-    -- Icy-aqua: #ADEEE3;
-    -- Caladon: #86DEB7;
-    -- Mint-leaf: #63B995;
-    -- Fern: #50723C;
-    -- Dark-khaki: #423E28
-}
-body {
-  font-family: "Quicksand", Arial, sans-serif;
+   --icy-aqua: #ADEEE3;
+   --caladon: #86DEB7; 
+   --mint-leaf: #63B995; 
+   --fern: #50723C; 
+   --dark-khaki: #423E28
 }
 
-/* Seleção de elemento */
+body { 
+  font-family: "Quicksand", Arial, sans-serif; 
+}
+
+/* Seleção de elemento */ 
 h3 {
-  font-family: "Courier New", Courier, monospace;
-  color: #ADEEE3;
-}
+   font-family: "Courier New", Courier, monospace; 
+   color: #5abdac; 
+  }
 
-/* Seleção de ID */
-#tabela {
-  text-align: center;
-  background-color: #86DEB7;
-}
+  /* Seleção de ID */ 
+  #tabela { 
+    text-align: center; 
+    background-color: #86DEB7;
+  }
 
-/* Seleção de classe */
-.negrito {
-  font-weight: bold;
-}
+  /* Seleção de classe */ 
+  .negrito { 
+    font-weight: bold; 
+  }
+
+  img {
+    height: 20rem;
+  }
+
+  #nav-section ul { 
+    list-style-type: none;
+  }
+
+  #nav-section li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(222, 246, 247);
+    background-color: rgb(71, 146, 88);
+    border-radius: 5px;
+  }
+
+  a:hover {
+    color: var(--mint-leaf);
+    box-shadow: aquamarine;
+  }
+
+  /* Atividade */
+  #nav-link ul { 
+    list-style-type: none;
+  }
+
+  #nav-link li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(222, 246, 247);
+    background-color: rgb(71, 146, 88);
+    border-radius: 5px;
+  }
+
+  a:hover {
+    color: rgb(16, 83, 44);
+    box-shadow: 0 0 10px rgb(16, 83, 44);
+  }
