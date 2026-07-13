@@ -1,77 +1,141 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 
 :root {
-   --icy-aqua: #ADEEE3;
-   --caladon: #86DEB7; 
-   --mint-leaf: #63B995; 
-   --fern: #50723C; 
-   --dark-khaki: #423E28
+  --icy-aqua: #adeee3;
+  --caladon: #86deb7;
+  --mint-leaf: #63b995;
+  --fern: #50723c;
+  --dark-khaki: #423e28;
 }
 
-body { 
-  font-family: "Quicksand", Arial, sans-serif; 
+body {
+  font-family: "Quicksand", Arial, sans-serif;
 }
 
-/* Seleção de elemento */ 
+/* Seleção de elemento */
 h3 {
-   font-family: "Courier New", Courier, monospace; 
-   color: #5abdac; 
-  }
+  font-family: "Courier New", Courier, monospace;
+  color: #5abdac;
+}
 
-  /* Seleção de ID */ 
-  #tabela { 
-    text-align: center; 
-    background-color: #86DEB7;
-  }
+/* Seleção de id */
+#tabela {
+  text-align: center;
+  background-color: var(--fern);
+  color: var(--mint-leaf);
+}
 
-  /* Seleção de classe */ 
-  .negrito { 
-    font-weight: bold; 
-  }
+/* Seleção de classe */
+.negrito {
+  font-weight: bold;
+}
 
-  img {
-    height: 20rem;
-  }
+/* Seleção de elemento (p) que usa uma determinada classe (courier) */
+p.courier {
+  font-family: "Courier New", Courier, monospace;
+}
 
-  #nav-section ul { 
+h1,
+h2,
+h3 {
+  font-family: "Lobster", "Times New Roman", Times, serif;
+  /* font-style: italic; */
+}
+
+form button {
+  background-color: brown;
+}
+
+/* form input {
+  background-color: var(--blue-slate);
+  color: var(--sky);
+} */
+
+img {
+  height: 200px; /* Altura */
+  width: 200px; /* Largura */
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+#nav-sections {
+  /* Somente para uma determinada parte */
+  margin-top: 15px;
+  /* margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px; */
+  /* top right bottom left */
+  /* margin: 15px 30px 50px 25px; */
+  /* top right-left bottom */
+  /* margin: 15px 30px 50px; */
+  /* top-bottom left-right */
+  /* margin: 15px 30px; */
+  /* Mesmo valor para tudo (TRBL) */
+  /* margin: 30px; */
+}
+
+#nav-sections ul {
+  list-style-type: none;
+}
+
+#nav-sections li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--caladon);
+  background-color: var(--mint-leaf);
+  border-radius: 5px;
+  /* Espaçamento interno */
+  padding: 5px 15px;
+}
+
+a:hover {
+  color: var(--icy-aqua);
+  box-shadow: 0 0 10px var(--icy-aqua);
+}
+
+#nav-links {
+  ul {
     list-style-type: none;
   }
 
-  #nav-section li {
+  li {
     display: inline-block;
   }
 
   a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(222, 246, 247);
-    background-color: rgb(71, 146, 88);
+    color: var(--fern);
+    background-color: var(--mint-leaf);
     border-radius: 5px;
   }
 
   a:hover {
-    color: var(--mint-leaf);
-    box-shadow: aquamarine;
+    color: var(--caladon);
+    box-shadow: 0 0 10px var(--caladon);
   }
+}
 
-  /* Atividade */
-  #nav-link ul { 
-    list-style-type: none;
-  }
+.fonte-maior {
+  font-size: 48px;
+  background-color: var(--fern);
+  padding-left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #63b995;
+}
 
-  #nav-link li {
-    display: inline-block;
-  }
+.teste-espacamento {
+  background-color: var(--dark-khaki);
+  padding: 20px 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(222, 246, 247);
-    background-color: rgb(71, 146, 88);
-    border-radius: 5px;
-  }
-
-  a:hover {
-    color: rgb(16, 83, 44);
-    box-shadow: 0 0 10px rgb(16, 83, 44);
-  }
+/* -------------- DESAFIO -------------------- */
